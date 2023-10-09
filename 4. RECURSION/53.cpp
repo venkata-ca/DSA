@@ -14,7 +14,7 @@ void subsets(string s,string curr="",int i=0)
 {
 	if(i==s.length())
 	{
-		cout<<s<<" ";
+		cout<<curr<<" ";
 		return;
 	}
 	subsets(s,curr,i+1);
