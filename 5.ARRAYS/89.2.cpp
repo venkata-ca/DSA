@@ -9,6 +9,7 @@
     INPUT : arr[] = {0,1,0,1,1,1,1,0,1,1}
     OUTPUT : 4
 */
+
 #include<bits/stdc++.h>
 using namespace std;
 int maxOnes(int arr[],int n)
